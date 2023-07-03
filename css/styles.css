@@ -458,4 +458,18 @@ color: var(--white, #4d5ae5);
     gap: 24px;
 }
 
+.list-foto:nth-child(n+7) {
+    margin-bottom: 120px;
+}
+
+.link-foto-o:nth-child(-n+6) {
+    margin-bottom: 48px;
+}
+
+.div-abcd {
+    padding: 32px 16px;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    border-left: 1px solid var(--cornflower, #E7E9FC);
+    border-right: 1px solid var(--cornflower, #E7E9FC);
+}
 
