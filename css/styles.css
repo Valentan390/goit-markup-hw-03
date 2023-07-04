@@ -254,6 +254,7 @@ color: var(--iris, #4D5AE5);
 }
 
 .menu-item {
+    padding: 24px 0;
 color: var(--navyblue, #2E2F42);
 
     /* Body Medium */
