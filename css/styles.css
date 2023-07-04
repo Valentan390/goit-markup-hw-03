@@ -41,7 +41,7 @@ button {
 
 .header {
     width: 1440px;
-    border-bottom: 3px solid tomato;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -52,6 +52,12 @@ button {
     padding-right: 15px;
 
 }
+
+.container-header {
+    display: flex;
+}
+
+
 body {
     font-family: Roboto, sans-serif;
     color: var(--slate, #434455);
@@ -65,23 +71,17 @@ body {
     align-items: center;
 }
 
-.div-nav {
-    display: flex;
-    
-}
 
-
-.page-heder {
-    
-}
 
 .page-nav {
     display: flex;
+    align-items: center;
      
 }
 
 .menu {
     display: flex;
+    gap: 40px;
 }
 
 .section-color {
@@ -227,6 +227,7 @@ color: var(--iris, #4D5AE5);
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .span {
@@ -249,11 +250,23 @@ color: var(--navyblue, #2E2F42);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    padding: 24px 0;
     
 }
 
 .address {
     font-style: normal;
+}
+
+.list-address {
+    display: flex;
+    gap: 40px;
+    margin-left: 250px;
+}
+
+.address-list {
+    padding: 24px 0;
+    justify-content: space-between;
 }
 
 .menu-link {
@@ -268,9 +281,6 @@ color: var(--navyblue, #2E2F42);
         
 }
 
-.navigaihion:not(:last-child) {
-    margin-right: 40px;
-}
 
 .link-logo {
 color: var(--navyblue, #2E2F42);
